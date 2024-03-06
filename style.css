@@ -19,9 +19,9 @@ html,body{
     font-family: c;
     src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
 }
-@font-face{
-    font-family: d;
-    src: ;
+@font-face {
+        font-family: d;
+        src: url(./Montserrat-VariableFont_wght.ttf);
 }
 #nav{
     position: fixed;
@@ -41,6 +41,11 @@ html,body{
     margin-top: 0.5%;
     font-family: a;
     font-weight: 400;
+    transform: scaleX();
+    transition: all 0.6s ease;
+}
+#nav>h4:hover{
+    transform: scaleX(1);
 }
 #nav>img{
     object-fit: cover;
@@ -52,7 +57,7 @@ html,body{
 }
 img{
     position: relative;
-    height: 100vh;
+    height: 110%;
     width: 100vw;
     margin-top: 0%;
 }
@@ -60,5 +65,5 @@ img{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-color: black;
 }
